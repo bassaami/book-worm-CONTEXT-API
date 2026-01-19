@@ -6,7 +6,7 @@ import { getStoredBook } from '../Utility/addTDB';
 import IBookk from './IBookk';
 
 const ReadList = () => {
-    //bad case
+    
     let [readList, setReadList] = useState([])
 let [sort, setSort] = useState()
 
